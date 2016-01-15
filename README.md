@@ -1,6 +1,11 @@
+=========
+IBM-QRadar-Right-Click-Menu
+=========
 ## Synopsis
 
-This is a simple [OpenDNS Investigate](http://www.opendns.com/enterprise-security/solutions/investigate/) right-click integration for use within [IBM Security QRadar SIEM](http://www-03.ibm.com/software/products/en/qradar-siem) using the built-in <code>ip_context_menu.xml</code> file - located on the QRadar console in the <code>/opt/qradar/conf/</code> directory.
+This contains simple  right-click integrations for use within [IBM Security QRadar SIEM](http://www-03.ibm.com/software/products/en/qradar-siem) using the built-in <code>ip_context_menu.xml</code> file - located on the QRadar console in the <code>/opt/qradar/conf/</code> directory.
+
+This was originally written by Andrew Hay specifically to [OpenDNS Investigate](http://www.opendns.com/enterprise-security/solutions/investigate/) but has been expanded to many other integrations by @neonprimetime.
 
 ## Installation
 
@@ -28,14 +33,14 @@ This is a simple [OpenDNS Investigate](http://www.opendns.com/enterprise-securit
 
 <code># **service tomcat restart**</code>
 
-## Contributors
+=========
+Requirements
+=========
+1.) IBM QRadar 7.2.3 or greater
 
-Andrew Hay, Sr. Security Research Lead and Evangelist, OpenDNS, Inc.
-
-Twitter: [@andrewsmhay](http://twitter.com/andrewsmhay)
-
-## License
-
+=========
+License
+=========
 Copyright (C) 2014 OpenDNS, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -45,3 +50,17 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the Web at “Copyright and trademark information” at [www.ibm.com/legal/copytrade.shtml](http://www.ibm.com/legal/copytrade.shtml).
+
+## Contributors
+
+  Andrew Hay, Sr. Security Research Lead and Evangelist, OpenDNS, Inc.
+     Twitter: [@andrewsmhay](http://twitter.com/andrewsmhay)
+  Justin C Miller aka neonprimetime
+     Twitter: [@neonprimetime](http://twitter.com/neonprimetime)
+     
+======================
+Who Am I?
+======================
+neonprimetime security
+http://neonprimetime.blogspot.com
+ 
