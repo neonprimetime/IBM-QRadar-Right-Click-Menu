@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!- This is a configuration file to add custom actions into the IP address right-click menu. -->
 <contextMenu>
+
 <menuEntry name="OpenDNS Investigate Lookup" url="https://investigate.opendns.com/ip-view/%IP%" />
+
+<menuEntryname="Recon-USAWhoIsforIP(ARIN)"url="http://whois.arin.net/rest/ip/%IP%"/>
+<menuEntryname="Recon-AsiaWhoIsforIP(APNIC)"url="https://wq.apnic.net/whois-search/static/search.html?query=%IP%"/>
+<menuEntryname="Recon-SouthAmericaWhoIsforIP(LACNIC)"url="http://rdap.lacnic.net/rdap-web/ip?key=%IP%"/>
+<menuEntryname="Recon-RussiaEuropeWhoIsforIP(RIPE)"url="https://apps.db.ripe.net/search/query.html?searchtext=%IP%#resultsAnchor"/>
+<menuEntryname="Recon-GoogleforIP"url="http://www.google.com/search?q=%IP%"/>
+<menuEntryname="Recon-GeoLookupforIP(senderbase)"url="http://www.senderbase.org/senderbase_queries/detailip?search_string=%IP%"/>
+<menuEntryname="Recon-WhoIsforIP(DomainTools)"url="http://whois.domaintools.com/%IP%"/>
+
+<menuEntryname="BlacklistCheck-IPVoid"url="http://www.ipvoid.com/scan/%IP%"/>
+<menuEntryname="BlacklistCheck-ORBL"url="http://www.mxtoolbox.com/SuperTool.aspx?action=blacklist%3a%IP%"/>
+<menuEntryname="BlacklistCheck-MyWOT"url="https://www.mywot.com/en/scorecard/%IP%"/>
+<menuEntryname="BlacklistCheck-VirusTotal"url="https://www.virustotal.com/en/ip-address/%IP%/information/"/>
+<menuEntryname="BlacklistCheck-Sans"url="http://isc.sans.org/ipinfo.html?ip=%IP%"/>
+<menuEntryname="BlacklistCheck-XForce"url="https://exchange.xforce.ibmcloud.com/#/ip/%IP%"/>
+<menuEntryname="BlacklistCheck-Spamhaus"url="http://www.spamhaus.org/query/bl?ip=%IP%"/>
+<menuEntryname="BlacklistCheck-McAfee"url="http://www.trustedsource.org/query/%IP%"/>
+<menuEntryname="BlacklistCheck-Cymon"url="https://cymon.io/%IP%"/>
+<menuEntryname="BlacklistCheck-VirusTracker"url="http://virustracker.net/%IP%"/>
+<menuEntryname="BlacklistCheck-HoneyNetProject"url="http://www.projecthoneypot.org/ip_%IP%"/>
+
 </contextMenu>
